@@ -4,9 +4,9 @@
 FTP="/usr/bin/ftp"
 FTPDIR=`date +%Y-%m-%d`
 
-SERVER="172.23.1.20"
-USER="lxiang"
-PASSWD="8ik,VFR$"
+SERVER="x.x.x.x"
+USER="aaa"
+PASSWD="bbb"
 
 if [[ ! $# -eq 1 ]]; then
 	echo "parameter invalid: $# parameters"
